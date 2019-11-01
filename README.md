@@ -1,2 +1,2 @@
-# TinDog-Start-master
+# TinDog is a dating application for Dog
  
