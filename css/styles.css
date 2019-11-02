@@ -7,7 +7,7 @@ body {
   font-family: "Montserrat";
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -61,11 +61,16 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features-section */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -107,4 +112,17 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
 }
